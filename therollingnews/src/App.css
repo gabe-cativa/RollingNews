@@ -1,0 +1,80 @@
+@import url("https://allfont.es/allfont.css?fonts=futura-normal");
+
+.logo {
+  height: 30px;
+}
+
+.contenidoSeccion {
+  border: 0;
+  color: black;
+}
+
+body {
+  font-family: "Futura";
+}
+
+.rojo {
+  background-image: linear-gradient(15deg, #7f000d 0%, #d00006 100%);
+}
+
+.azul {
+  background-image: linear-gradient(0deg, #000752 0%, #002682 100%);
+}
+
+.amarillo {
+  background-image: linear-gradient(0deg, #ec5b09 0%, #ff9605 100%);
+}
+.subnavbtn {
+  font-size: 12px;
+  outline: none;
+  color: white;
+  margin: 0;
+  position: absolute;
+}
+
+.subnav-content {
+  font-size: 14px;
+  color: white;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  display: inline-block;
+  position: absolute;
+}
+.subnav a:hover {
+  background-color: #ff9605;
+  border-radius: 5px;
+}
+.subnav-content ul:hover {
+  background-color: #ff9605;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+.subnav-content ul {
+  list-style: none;
+  color: white;
+  display: inline-block;
+}
+.subnav-content li a {
+  list-style: none;
+  color: white;
+  display: block;
+  position: relative;
+  align-items: center;
+}
+.fixed-bg {
+  z-index: -1 !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  width: 100% !important;
+  margin-top: -10px;
+}
+.btn.ms {
+  background: transparent;
+}
+
+.bg-transparent {
+  border: none !important;
+}

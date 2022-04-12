@@ -1,0 +1,43 @@
+.bk-naranja {
+  background-color: #ec5b09;
+}
+.bk-azul {
+  background-color: #002079;
+}
+
+@media (max-width: 1100px) {
+  .newDetail {
+    padding-right: 0 !important;
+  }
+  .newDetail-container,
+  .newDetail-header {
+    display: contents !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .newDetail-container_new {
+    padding-right: 15px !important;
+    max-width: 100%;
+  }
+  .newDetail-col_publicity {
+    margin-left: 17%;
+    max-width: 56%;
+  }
+  .newDetail-relatedCard {
+    width: 100% !important;
+  }
+}
+@media (max-width: 700px) {
+  .newDetail-col_publicity {
+    margin-left: 10%;
+    max-width: 70%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 290px) {
+  .newDetail-col_publicity {
+    margin-left: 5%;
+    max-width: 85%;
+    margin-bottom: 20px;
+  }
+}

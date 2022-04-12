@@ -1,0 +1,30 @@
+aside {
+  widows: 150px;
+  height: 700px;
+  background-color: white;
+  float: right;
+}
+
+@media (max-width: 600px) {
+  aside {
+    display: none;
+  }
+}
+
+.type-Future {
+  font-family: Futura;
+  src: local("Futura Std");
+}
+
+.efectoimg:hover {
+  transition: 150ms;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  filter: opacity(0.9);
+}
+.media {
+  background-color: #b8b3b3;
+}
+.media img {
+  width: 200px;
+}

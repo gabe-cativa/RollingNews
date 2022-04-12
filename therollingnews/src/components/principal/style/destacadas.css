@@ -1,0 +1,52 @@
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.05);
+}
+
+.texto {
+  text-shadow: 3px 3px 10px black;
+  padding-bottom: 5px;
+}
+
+.titulo {
+  font-weight: bold;
+}
+
+.texto-sm {
+  font-size: medium;
+}
+
+.shade {
+  background-color: rgba(27, 26, 26, 0.336);
+  border-radius: 4px;
+}
+
+@media (min-width: 551px) and (max-width: 768px) {
+  .texto {
+    text-shadow: 3px 3px 10px black;
+    padding-bottom: 5px;
+    font-size: x-small;
+  }
+  .texto-sm {
+    font-size: small;
+  }
+}
+
+@media (max-width: 550px) {
+  .ocultar {
+    display: none;
+  }
+  .titulo {
+    font-size: x-small;
+  }
+  .texto {
+    text-shadow: 3px 3px 10px black;
+    padding-bottom: 5px;
+    font-size: x-small;
+  }
+  .texto-sm {
+    font-size: x-small;
+  }
+}

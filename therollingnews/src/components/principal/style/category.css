@@ -1,0 +1,43 @@
+.cardNew-img {
+  height: 200px;
+}
+.categoryNew-cardDeck {
+  justify-content: space-around;
+}
+.type-Future {
+  font-family: Futura;
+  src: local("Futura Std");
+}
+.cardNew-card {
+  height: 100%;
+}
+.cardNew-cardFooter {
+  padding: 0.2rem 1.25rem;
+}
+.cardNew-container {
+  margin-bottom: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 980px) {
+  .cardNew-card {
+    width: auto !important;
+  }
+}
+@media (min-width: 450px) and (max-width: 979px) {
+  .cardNew-card {
+    width: 70% !important;
+  }
+  .categoryNew-cardDeck,
+  .cardNew-container {
+    margin-left: 8%;
+  }
+}

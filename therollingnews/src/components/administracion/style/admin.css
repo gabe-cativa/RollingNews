@@ -1,0 +1,27 @@
+.boton {
+  background-color: #002682 !important;
+  border: none;
+}
+
+.destacar {
+  color: #ff9506;
+  border: none;
+}
+
+.editar {
+  color: #2c49cc;
+  border: none;
+}
+
+.eliminar {
+  color: #d00006;
+  border: none;
+}
+
+.button {
+  font-size: large;
+  line-height: 10px;
+  text-align: center;
+  width: 50%;
+  height: 50px;
+}
